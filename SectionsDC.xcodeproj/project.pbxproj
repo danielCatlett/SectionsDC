@@ -14,6 +14,7 @@
 		3F73E1961E6E2C220005404D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F73E1941E6E2C220005404D /* LaunchScreen.storyboard */; };
 		3F73E1A11E6E2C220005404D /* SectionsDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73E1A01E6E2C220005404D /* SectionsDCTests.swift */; };
 		3F73E1AC1E6E2C220005404D /* SectionsDCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73E1AB1E6E2C220005404D /* SectionsDCUITests.swift */; };
+		3F73E1BA1E6E2D070005404D /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F73E1B91E6E2D070005404D /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F73E1A71E6E2C220005404D /* SectionsDCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SectionsDCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73E1AB1E6E2C220005404D /* SectionsDCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsDCUITests.swift; sourceTree = "<group>"; };
 		3F73E1AD1E6E2C220005404D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F73E1B91E6E2D070005404D /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = sortednames.plist; path = ../../../../../Desktop/sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 		3F73E18A1E6E2C210005404D /* SectionsDC */ = {
 			isa = PBXGroup;
 			children = (
-				3F73E18B1E6E2C210005404D /* AppDelegate.swift */,
-				3F73E18D1E6E2C210005404D /* ViewController.swift */,
 				3F73E18F1E6E2C220005404D /* Main.storyboard */,
+				3F73E18D1E6E2C210005404D /* ViewController.swift */,
+				3F73E1B91E6E2D070005404D /* sortednames.plist */,
+				3F73E18B1E6E2C210005404D /* AppDelegate.swift */,
 				3F73E1921E6E2C220005404D /* Assets.xcassets */,
 				3F73E1941E6E2C220005404D /* LaunchScreen.storyboard */,
 				3F73E1971E6E2C220005404D /* Info.plist */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F73E1BA1E6E2D070005404D /* sortednames.plist in Resources */,
 				3F73E1961E6E2C220005404D /* LaunchScreen.storyboard in Resources */,
 				3F73E1931E6E2C220005404D /* Assets.xcassets in Resources */,
 				3F73E1911E6E2C220005404D /* Main.storyboard in Resources */,
